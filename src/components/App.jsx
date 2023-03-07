@@ -6,7 +6,7 @@ import Searchbar from './Searchbar/Searchbar';
 import { requestPhotos } from 'services/api';
 
 const App = () => {
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState('popular');
   const [photos, setPhotos] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
